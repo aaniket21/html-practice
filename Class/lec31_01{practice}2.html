@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity</title>
+    <style>
+        header{
+            background-color: lightgreen;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            /* flex-direction: row; */
+            padding: 20px;
+            }
+
+        .item {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 4px 8px;
+            width: 300px;
+        }
+        .item h2{
+            color: lightgreen;
+        }
+        .header_container{
+            padding: 10px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Website</h1>
+        <div class="header_container">
+            <div>Home</div>
+            <div>About</div>
+            <div>Contact</div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="item">
+            <h2>About CSS</h2>
+            <p>Cascading Style Sheets (CSS) allow you to style and layout your web pages, adding colors, spacing, and more.</p>
+        </div>
+        <div class="item">
+            <h2>Responsive Design</h2>
+            <p>Responsive design ensures your webpage looks good on all devices, adapting to different screen sizes and orientations.</p>
+          </div>
+          <div class="item">
+            <h2>Web Accessibility</h2>
+            <p>Web accessibility means making your website usable for people of all abilities and disabilities.</p>
+          </div>
+    </div>
+</body>
+</html>

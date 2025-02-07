@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+</head>
+<body>
+    <form action="">
+        <label for="uname">Enter Name: </label>
+        <input type="text" name="name" id="uname" placeholder="Enter your name" value="Mr." required>
+        <br>
+        <label for="pass">Enter your password: </label>
+        <input type="password" name="pass" id="pass" placeholder="Enter your password" required>
+        <br>
+        <label for="email">Enter your email: </label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        <br>
+        <label for="feedback">Enter feedback: </label><br>
+        <textarea name="feedback" id="feedback" rows="7" cols="25">Tell us how you feel</textarea>
+        <br>
+        <label for="hobby">Choose your Hobbies: </label>
+        <input type="checkbox" name="Hobby" id="cook" value="Cook" checked><label for="cook">Cooking</label>
+        <input type="checkbox" name="Hobby" id="sing" value="Singing" ><label for="sing">Singing</label>
+        <input type="checkbox" name="Hobby" id="dance" value="Dancing" ><label for="dance">Dancing</label>
+        <br>
+        <label for="course">Choose your course: </label>
+        <input type="radio" name="course" id="bca" value="BCA"><label for="bca">BCA</label>
+        <input type="radio" name="course" id="btech" value="btech" checked><label for="btech">B.Tech</label>
+        <input type="radio" name="course" id="mca" value="mca" checked><label for="mca">MCA</label>
+        <br>
+        <label for="statesel">Select state: </label>
+        <select name="statesel" id="statesel" size="4" >
+            <option value="state">Select your state</option>
+            <option value="bihar">Bihar</option>
+            <option value="punjab">Punjab</option>
+            <option value="Delhi">Delhi</option>
+
+        </select>
+        <br>
+        <input type="submit" name="Submitform" id="Submitform" value="Submit Form">
+        <br>
+        <input type="reset" name="reset" id="reset" value="Reset">
+        <br>
+        <input type="image" name="imagesubmit" id="submit" src="submit.png" width="90" height="40">
+    </form>
+</body>
+</html>

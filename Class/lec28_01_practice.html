@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS grid practice</title>
+    <style>
+        .container{
+            background-color: aliceblue;
+            border: 5px lightgrey solid;
+            padding: 20px;
+            display: grid;
+            grid-template: auto auto auto auto/auto auto auto;
+        }
+        .item{
+            border: 2px pink solid;
+            padding: 10px;
+            color:black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #i1{
+            grid-row: 1;
+            grid-column: span 3;
+            text-align: center;
+        }
+        #i2{
+            grid-row: 2;
+            grid-column: span 3;
+            text-align: center;
+        }
+        #i6{
+            grid-row: 4;
+            grid-column: span 2;
+            text-align:center;
+        }
+        img{
+            width: auto;
+            height: auto;
+            border-radius: 10px;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="i1"><h2>Dishes of India</h2></div>
+        <div class="item" id="i2"><img src="2.jpg" alt="image 1"></div>
+        <div class="item" id="i3"><img src="3.jpg" alt="image 2"></div>
+        <div class="item" id="i4"><img src="4.jpg" alt="image 3"></div>
+        <div class="item" id="i5"><img src="5.jpg" alt="image 4"></div>
+        <div class="item" id="i6"><img src="6.jpg" alt="image 6"></div>
+        <div class="item" id="i7"><img src="7.jpg" alt="image 7"></div>
+    </div>
+</body>
+</html>
