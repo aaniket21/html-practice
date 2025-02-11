@@ -1,0 +1,3 @@
+Tailwind Container:-
+    The container class in Tailwind CSS is a utility class that helps in centering and constraining the width of a content section, allowing it to adapt responsively to different screen sizes. By default, the container class.
+    
