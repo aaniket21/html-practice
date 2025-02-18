@@ -1,3 +1,67 @@
 Tailwind Container:-
     The container class in Tailwind CSS is a utility class that helps in centering and constraining the width of a content section, allowing it to adapt responsively to different screen sizes. By default, the container class.
     
+Display:-
+    5. FLEX:-
+        Flexbox or, in its full name the Flexible Box Layout Module is a newer CSS layout model that aims to help in building responsive and efficient layouts for elements placed in a container regardless to their size, or the size which they might change in future.
+
+        PROPERTIES:
+            1. Direction
+                The flex-direction property specifies the direction of the flex items. Tailwind CSS offers the following utilities:
+                    flex-row: Default, items are placed in a row.
+                    flex-row-reverse: Items are placed in a row in reverse order.
+                    flex-col: Items are placed in a column.
+                    flex-col-reverse: Items are placed in a column in reverse order.
+            
+            2. Justify Content
+                The justify-content property aligns items along the main axis (horizontal by default). Tailwind provides several utilities for this:
+                    justify-start: Align items to the start.
+                    justify-center: Center items.
+                    justify-end: Align items to the end.
+                    justify-between: Distribute items evenly with space between.
+                    justify-around: Distribute items evenly with space around.
+                    justify-evenly: Distribute items evenly with equal space around them.
+            
+            3. Align Items
+                The align-items property aligns items along the cross axis (vertical by default). The available utilities are:
+                    items-start: Align items to the start.
+                    items-center: Center items.
+                    items-end: Align items to the end.
+                    items-baseline: Align items along the baseline.
+                    items-stretch: Stretch items to fill the container.
+            
+            4. Align Self
+                The align-self property overrides the align-items property for individual flex items. Tailwind provides the following utilities:
+                    self-auto: Default, aligns the item according to the container’s align-items property.
+                    self-start: Align the item to the start.
+                    self-center: Center the item.
+                    self-end: Align the item to the end.
+                    self-baseline: Align the item along the baseline.
+                    self-stretch: Stretch the item to fill the container.
+            
+            5.  Flex Wrap
+                The flex-wrap property specifies whether the flex items should wrap or not. The utilities provided by Tailwind are:
+                    flex-nowrap: Items do not wrap.
+                    flex-wrap: Items wrap to the next line.
+                    flex-wrap-reverse: Items wrap to the next line in reverse order.
+            
+            6. Align Content
+                The align-content property aligns flex lines when there is extra space in the cross axis. Tailwind offers:
+                    content-start: Align lines to the start.
+                    content-center: Center lines.
+                    content-end: Align lines to the end.
+                    content-between: Distribute lines evenly with space between.
+                    content-around: Distribute lines evenly with space around.
+                    content-evenly: Distribute lines evenly with equal space around them.
+            
+            7. Flex Grow, Shrink, and Basis
+                Tailwind CSS also provides utilities for controlling the flex-grow, flex-shrink, and flex-basis properties:
+                    flex-grow-0: Do not grow.
+                    flex-grow: Grow to fill the container.
+                    flex-shrink-0: Do not shrink.
+                    flex-shrink: Shrink if necessary.
+                    flex-initial: Set to initial size.
+                    flex-1: Set flex-grow and flex-shrink to 1 and flex-basis to 0.
+
+    6. GRID:
+        
