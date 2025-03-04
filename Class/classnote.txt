@@ -65,3 +65,33 @@ Display:-
 
     6. GRID:
         
+
+
+
+
+
+
+
+
+
+
+
+Position:-
+    This class accepts more than one value in tailwind CSS. It is the alternative to the CSS Position property. This class is used for controlling how an element is positioned in the DOM.
+
+    Position classes:
+        static
+        fixed
+        absolute
+        relative
+        sticky
+
+        static: This class is used to set the position of an element according to the normal flow of the document.
+
+        fixed: This class will be positioned fixed to the viewport. An element with fixed positioning allows it to remain at the same position even we scroll the page. We can set the position of the element using the top, right, bottom, left.
+
+        absolute: This class is used to set the position of an element outside the normal flow of the document, causing neighboring elements to act as if the element doesn’t exist.
+
+        relative: This class is used to set the position of an element relative to the normal flow of the document.
+
+        sticky: This class is used to set the position of an element as relative until it crosses a specified threshold, then it treats it as fixed until its parent is off-screen.
